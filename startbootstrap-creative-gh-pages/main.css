@@ -1,0 +1,38 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+.site-description {
+	color: white;
+}
+
+.section.header {
+	height: 450px;
+}
+
+.header-inner {
+	margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+	.section.header {
+		height: 310px;
+	}
+	
+	.header-inner {
+		margin-top: -10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.section.header {
+		height: 240px;
+	}
+}
+
+@media (max-width: 400px) {
+	.section.header {
+		height: 200px;
+	}
+}

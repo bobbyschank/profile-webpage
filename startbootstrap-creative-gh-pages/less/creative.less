@@ -8,10 +8,6 @@ body {
     width: 100%;
 }
 
-body {
-    .serif-font;
-}
-
 hr {
     border-color: @theme-primary;
     border-width: 3px;
@@ -60,7 +56,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
@@ -110,16 +106,16 @@ aside {
                 > a,
                 > a:focus {
                     color: @theme-primary !important;
-                    background-color: transparent;
+                    background-color: rgba(0, 0, 0, 0.1);
                     &:hover {
-                        background-color: transparent;
+                        background-color: rgba(0, 0, 0, 0.1);
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.3);
         border-color: fade(white, 30%);
         .navbar-header .navbar-brand {
             color: fade(white, 70%);
@@ -174,6 +170,8 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 7px;
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -182,13 +180,13 @@ header {
                 font-size: 30px;
             }
             hr {
-                margin: 30px auto;
+                margin: 18px auto;
             }
             p {
                 font-weight: 300;
                 color: fade(white, 70%);
                 font-size: 16px;
-                margin-bottom: 50px;
+                padding-bottom: -10px;
             }
         }
     }
@@ -196,13 +194,13 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 35%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
             .header-content-inner {
-                max-width: 1000px;
+                max-width: 600px;
                 margin-left: auto;
                 margin-right: auto;
                 h1 {
@@ -330,6 +328,15 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.phoneNumber {
+    color: @theme-primary;
+}
+
+header .header-content .header-content-inner {
+    margin-bottom: 0px;
+    padding: 10px;
 }
 
 // Extras
