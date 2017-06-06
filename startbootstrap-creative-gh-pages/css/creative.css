@@ -400,6 +400,9 @@ fieldset[disabled] .btn-primary.active {
 .phoneNumber {
   color: #70a6ff;
 }
+.boatin {
+  width: 100%;
+}
 header .header-content .header-content-inner {
   margin-bottom: 0px;
   padding: 10px;
