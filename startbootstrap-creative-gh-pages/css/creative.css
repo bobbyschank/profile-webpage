@@ -278,6 +278,9 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+.portfolio-header {
+  text-align: center;
+}
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
