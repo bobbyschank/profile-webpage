@@ -403,6 +403,10 @@ fieldset[disabled] .btn-primary.active {
 .boatin {
   width: 100%;
 }
+.project {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 header .header-content .header-content-inner {
   margin-bottom: 0px;
   padding: 10px;
